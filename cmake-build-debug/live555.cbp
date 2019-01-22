@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="live555"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\BasicUsageEnvironment\;CMake Files\groupsock\;CMake Files\liveMedia\;CMake Files\mediaServer\;CMake Files\proxyServer\;CMake Files\UsageEnvironment\;CMake Files\testProgs\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BasicUsageEnvironment">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/lib/libBasicUsageEnvironment.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/BasicUsageEnvironment"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/BasicUsageEnvironment/Makefile&quot;  VERBOSE=1 BasicUsageEnvironment"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/BasicUsageEnvironment/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/BasicUsageEnvironment/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/BasicUsageEnvironment/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BasicUsageEnvironment/fast">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/lib/libBasicUsageEnvironment.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/BasicUsageEnvironment"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/BasicUsageEnvironment/Makefile&quot;  VERBOSE=1 BasicUsageEnvironment/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/BasicUsageEnvironment/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/BasicUsageEnvironment/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/BasicUsageEnvironment/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="groupsock">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/lib/libgroupsock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/groupsock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/groupsock/Makefile&quot;  VERBOSE=1 groupsock"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/groupsock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/groupsock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/groupsock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="groupsock/fast">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/lib/libgroupsock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/groupsock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/groupsock/Makefile&quot;  VERBOSE=1 groupsock/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/groupsock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/groupsock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/groupsock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="liveMedia">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/lib/libliveMedia.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/liveMedia"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/liveMedia/Makefile&quot;  VERBOSE=1 liveMedia"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/liveMedia/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/liveMedia/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/liveMedia/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="liveMedia/fast">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/lib/libliveMedia.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/liveMedia"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/liveMedia/Makefile&quot;  VERBOSE=1 liveMedia/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/liveMedia/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/liveMedia/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/liveMedia/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mediaServer">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/bin/mediaServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/mediaServer/Makefile&quot;  VERBOSE=1 mediaServer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/mediaServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/mediaServer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/mediaServer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mediaServer/fast">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/bin/mediaServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/mediaServer/Makefile&quot;  VERBOSE=1 mediaServer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/mediaServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/mediaServer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/mediaServer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="proxyServer">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/bin/proxyServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/proxyServer/Makefile&quot;  VERBOSE=1 proxyServer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/proxyServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/proxyServer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/proxyServer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="proxyServer/fast">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/bin/proxyServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/proxyServer/Makefile&quot;  VERBOSE=1 proxyServer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/proxyServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/proxyServer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/proxyServer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UsageEnvironment">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/lib/libUsageEnvironment.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/UsageEnvironment"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/UsageEnvironment/Makefile&quot;  VERBOSE=1 UsageEnvironment"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/UsageEnvironment/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/UsageEnvironment/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/UsageEnvironment/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UsageEnvironment/fast">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/lib/libUsageEnvironment.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/UsageEnvironment"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/UsageEnvironment/Makefile&quot;  VERBOSE=1 UsageEnvironment/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/UsageEnvironment/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/UsageEnvironment/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/UsageEnvironment/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testOnDemandRTSPServer">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/bin/testOnDemandRTSPServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 testOnDemandRTSPServer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testOnDemandRTSPServer/fast">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/bin/testOnDemandRTSPServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 testOnDemandRTSPServer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testH264VideoStreamer">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/bin/testH264VideoStreamer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 testH264VideoStreamer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testH264VideoStreamer/fast">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/bin/testH264VideoStreamer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 testH264VideoStreamer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testH265VideoStreamer">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/bin/testH265VideoStreamer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 testH265VideoStreamer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testH265VideoStreamer/fast">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/bin/testH265VideoStreamer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 testH265VideoStreamer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playSip">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/bin/playSip" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 playSip"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playSip/fast">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/bin/playSip" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 playSip/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testRTSPClient">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/bin/testRTSPClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 testRTSPClient"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testRTSPClient/fast">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/bin/testRTSPClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 testRTSPClient/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testAmrAudioStreamer">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/bin/testAmrAudioStreamer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 testAmrAudioStreamer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testAmrAudioStreamer/fast">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/bin/testAmrAudioStreamer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 testAmrAudioStreamer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="openRTSP">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/bin/openRTSP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 openRTSP"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="openRTSP/fast">
+				<Option output="/Users/tannzh/Desktop/work/live555-2018.12.14/bin/openRTSP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tannzh/Desktop/work/live555-2018.12.14/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/include"/>
+					<Add directory="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 openRTSP/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tannzh/Desktop/work/live555-2018.12.14/cmake-build-debug/testProgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/BasicHashTable.cpp">
+			<Option target="BasicUsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/BasicTaskScheduler.cpp">
+			<Option target="BasicUsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/BasicTaskScheduler0.cpp">
+			<Option target="BasicUsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/BasicUsageEnvironment.cpp">
+			<Option target="BasicUsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/BasicUsageEnvironment0.cpp">
+			<Option target="BasicUsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/DelayQueue.cpp">
+			<Option target="BasicUsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include/BasicHashTable.hh">
+			<Option target="BasicUsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include/BasicUsageEnvironment.hh">
+			<Option target="BasicUsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include/BasicUsageEnvironment0.hh">
+			<Option target="BasicUsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include/BasicUsageEnvironment_version.hh">
+			<Option target="BasicUsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include/DelayQueue.hh">
+			<Option target="BasicUsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/include/HandlerSet.hh">
+			<Option target="BasicUsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/HashTable.cpp">
+			<Option target="UsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/UsageEnvironment.cpp">
+			<Option target="UsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include/Boolean.hh">
+			<Option target="UsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include/HashTable.hh">
+			<Option target="UsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include/UsageEnvironment.hh">
+			<Option target="UsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include/UsageEnvironment_version.hh">
+			<Option target="UsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/include/strDup.hh">
+			<Option target="UsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/strDup.cpp">
+			<Option target="UsageEnvironment"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/GroupEId.cpp">
+			<Option target="groupsock"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/Groupsock.cpp">
+			<Option target="groupsock"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/GroupsockHelper.cpp">
+			<Option target="groupsock"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/IOHandlers.cpp">
+			<Option target="groupsock"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/NetAddress.cpp">
+			<Option target="groupsock"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/NetInterface.cpp">
+			<Option target="groupsock"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include/GroupEId.hh">
+			<Option target="groupsock"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include/Groupsock.hh">
+			<Option target="groupsock"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include/GroupsockHelper.hh">
+			<Option target="groupsock"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include/IOHandlers.hh">
+			<Option target="groupsock"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include/NetAddress.hh">
+			<Option target="groupsock"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include/NetInterface.hh">
+			<Option target="groupsock"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include/TunnelEncaps.hh">
+			<Option target="groupsock"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/include/groupsock_version.hh">
+			<Option target="groupsock"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/inet.c">
+			<Option target="groupsock"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/AC3AudioFileServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/AC3AudioRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/AC3AudioRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/AC3AudioStreamFramer.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/ADTSAudioFileServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/ADTSAudioFileSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/AMRAudioFileServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/AMRAudioFileSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/AMRAudioFileSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/AMRAudioRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/AMRAudioRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/AMRAudioSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/AVIFileSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/AudioInputDevice.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/AudioRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/Base64.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/BasicUDPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/BasicUDPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/BitVector.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/ByteStreamFileSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/ByteStreamMemoryBufferSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/ByteStreamMultiFileSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/DVVideoFileServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/DVVideoRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/DVVideoRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/DVVideoStreamFramer.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/DeviceSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/DigestAuthentication.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/EBMLNumber.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/EBMLNumber.hh">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/FileServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/FileSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/FramedFileSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/FramedFilter.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/FramedSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/GSMAudioRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/GenericMediaServer.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H261VideoRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H263plusVideoFileServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H263plusVideoRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H263plusVideoRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H263plusVideoStreamFramer.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H263plusVideoStreamParser.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H263plusVideoStreamParser.hh">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H264VideoFileServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H264VideoFileSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H264VideoRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H264VideoRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H264VideoStreamDiscreteFramer.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H264VideoStreamFramer.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H264or5VideoFileSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H264or5VideoRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H264or5VideoStreamDiscreteFramer.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H264or5VideoStreamFramer.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H265VideoFileServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H265VideoFileSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H265VideoRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H265VideoRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H265VideoStreamDiscreteFramer.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/H265VideoStreamFramer.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/InputFile.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/JPEGVideoRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/JPEGVideoRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/JPEGVideoSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/Locale.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3ADU.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3ADURTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3ADURTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3ADUTranscoder.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3ADUdescriptor.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3ADUdescriptor.hh">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3ADUinterleaving.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3AudioFileServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.hh">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3FileSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3Internals.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3Internals.hh">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3InternalsHuffman.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3InternalsHuffman.hh">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3InternalsHuffmanTable.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3StreamState.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3StreamState.hh">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MP3Transcoder.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG1or2AudioRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG1or2AudioRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG1or2AudioStreamFramer.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG1or2Demux.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG1or2DemuxedElementaryStream.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG1or2FileServerDemux.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG1or2VideoRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG1or2VideoRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG1or2VideoStreamFramer.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG2IndexFromTransportStream.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG2TransportStreamAccumulator.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG2TransportStreamFramer.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG2TransportStreamFromESSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG2TransportStreamFromPESSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG2TransportStreamIndexFile.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG2TransportStreamMultiplexor.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG4ESVideoRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG4ESVideoRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG4GenericRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG4GenericRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG4LATMAudioRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG4LATMAudioRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEG4VideoStreamFramer.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEGVideoStreamFramer.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEGVideoStreamParser.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MPEGVideoStreamParser.hh">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MatroskaDemuxedTrack.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MatroskaDemuxedTrack.hh">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MatroskaFile.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MatroskaFileParser.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MatroskaFileParser.hh">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MatroskaFileServerDemux.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MatroskaFileServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MatroskaFileServerMediaSubsession.hh">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/Media.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MediaSession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MediaSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MediaSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MultiFramedRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/MultiFramedRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/OggDemuxedTrack.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/OggDemuxedTrack.hh">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/OggFile.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/OggFileParser.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/OggFileParser.hh">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/OggFileServerDemux.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/OggFileServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/OggFileServerMediaSubsession.hh">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/OggFileSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/OnDemandServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/OutputFile.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/PassiveServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/ProxyServerMediaSession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/QCELPAudioRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/QuickTimeFileSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/QuickTimeGenericRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/RTCP.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/RTPInterface.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/RTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/RTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/RTSPClient.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/RTSPCommon.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/RTSPRegisterSender.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/RTSPServer.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/RTSPServerRegister.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/RTSPServerSupportingHTTPStreaming.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/RawVideoRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/RawVideoRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/SIPClient.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/ServerMediaSession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/SimpleRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/SimpleRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/StreamParser.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/StreamParser.hh">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/StreamReplicator.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/T140TextRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/TCPStreamSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/TextRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/TheoraVideoRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/TheoraVideoRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/VP8VideoRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/VP8VideoRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/VP9VideoRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/VP9VideoRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/VideoRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/VorbisAudioRTPSink.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/VorbisAudioRTPSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/WAVAudioFileServerMediaSubsession.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/WAVAudioFileSource.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/ourMD5.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/rtcp_from_spec.c">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/rtcp_from_spec.h">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/uLawAudioFilter.cpp">
+			<Option target="liveMedia"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/mediaServer/DynamicRTSPServer.cpp">
+			<Option target="mediaServer"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/mediaServer/DynamicRTSPServer.hh">
+			<Option target="mediaServer"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/mediaServer/live555MediaServer.cpp">
+			<Option target="mediaServer"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/proxyServer/live555ProxyServer.cpp">
+			<Option target="proxyServer"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/testProgs/openRTSP.cpp">
+			<Option target="openRTSP"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/testProgs/playCommon.cpp">
+			<Option target="playSip"/>
+			<Option target="openRTSP"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/testProgs/playCommon.hh">
+			<Option target="testOnDemandRTSPServer"/>
+			<Option target="testH264VideoStreamer"/>
+			<Option target="testH265VideoStreamer"/>
+			<Option target="playSip"/>
+			<Option target="testRTSPClient"/>
+			<Option target="testAmrAudioStreamer"/>
+			<Option target="openRTSP"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/testProgs/playSIP.cpp">
+			<Option target="playSip"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/testProgs/testAMRAudioStreamer.cpp">
+			<Option target="testAmrAudioStreamer"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/testProgs/testH264VideoStreamer.cpp">
+			<Option target="testH264VideoStreamer"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/testProgs/testH265VideoStreamer.cpp">
+			<Option target="testH265VideoStreamer"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/testProgs/testOnDemandRTSPServer.cpp">
+			<Option target="testOnDemandRTSPServer"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/testProgs/testRTSPClient.cpp">
+			<Option target="testRTSPClient"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/BasicUsageEnvironment/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\BasicUsageEnvironment\"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/groupsock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\groupsock\"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/liveMedia/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\liveMedia\"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/mediaServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mediaServer\"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/proxyServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\proxyServer\"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/UsageEnvironment/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\UsageEnvironment\"/>
+		</Unit>
+		<Unit filename="/Users/tannzh/Desktop/work/live555-2018.12.14/testProgs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\testProgs\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
